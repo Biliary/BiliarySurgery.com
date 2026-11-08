@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "id": "case-27",
+      "title": "Difficult cholecystectomy, previous ERCP",
+      "details": [
+        {
+          "label": "Age",
+          "value": "72"
+        },
+        {
+          "label": "Presentation",
+          "value": "Acute cholecystitis, 8 days"
+        },
+        {
+          "label": "Previous",
+          "value": "ERCP and sphincterotomy"
+        },
+        {
+          "label": "CBD diameter",
+          "value": "9 mm"
+        },
+        {
+          "label": "Bilirubin",
+          "value": "Normal"
+        },
+        {
+          "label": "At laparoscopy",
+          "value": "Contracted gallbladder, frozen triangle"
+        }
+      ],
+      "question": "The triangle will not open. What would you do?",
+      "options": [
+        {
+          "text": "Convert to open cholecystectomy",
+          "correct": false,
+          "verdict": "Conversion rarely solves this.",
+          "explanation": "Opening the abdomen does not improve the view of a frozen triangle, and in a 72-year-old with eight days of inflammation it adds a painful wound to an already difficult operation. Conversion is a route to a different exposure, not an answer to unclear anatomy."
+        },
+        {
+          "text": "Subtotal cholecystectomy",
+          "correct": false,
+          "verdict": "Reasonable, but premature.",
+          "explanation": "Subtotal cholecystectomy is the right bail-out when the anatomy cannot be made safe, and it belongs in your repertoire. Here it is being reached for before the cystic plate has been sought, which is the step that usually makes the view attainable."
+        },
+        {
+          "text": "Continue the dissection towards the cystic plate",
+          "correct": true,
+          "verdict": "This is the move.",
+          "explanation": "Leave the triangle alone and take the lower third of the gallbladder off the liver bed. Exposing the cystic plate is the component of the critical view most often missing, and it carries the dissection away from the sectoral ducts and a caterpillar right hepatic artery."
+        },
+        {
+          "text": "Intraoperative cholangiogram first",
+          "correct": false,
+          "verdict": "The right instinct, the wrong order.",
+          "explanation": "Cholangiography is valuable here and should be done, but the cystic duct has to be safely identified before it can be cannulated. Clear the plate first; the cholangiogram then confirms what the dissection has shown."
+        }
+      ],
+      "video_id": "contracted-fibrotic-gallbladder"
+    }
+  ]
+}

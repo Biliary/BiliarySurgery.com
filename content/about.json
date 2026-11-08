@@ -1,0 +1,25 @@
+{
+  "name": "Ahmad H M Nassar",
+  "role": "Consultant Laparoscopic Upper GI and Biliary Surgeon. Visiting Consultant Surgeon, Golden Jubilee National Hospital, Glasgow. Honorary Senior Research Fellow, University of Glasgow.",
+  "photo": "",
+  "interests": [
+    "Published the largest series of laparoscopic bile duct exploration and choledochoscopy.",
+    "Devised the difficulty grading scale for laparoscopic cholecystectomy now in wide academic use, including the NIHR Global Health Research Unit GECKO study across 109 countries, 1,218 hospitals and more than 52,000 patients.",
+    "Index admission management of biliary emergencies.",
+    "Safety markers, technique and instrumentation in biliary surgery.",
+    "Training and mentoring as a visiting consultant."
+  ],
+  "training": [
+    "Director, EAES laparoscopic bile duct and choledochoscopy courses at the annual congress since 2003.",
+    "Director, EAES Advanced GI Surgery Course in the Middle East, 2008–2019.",
+    "Postgraduate and hands-on courses at international conferences across Europe, the Middle East, Africa and Asia.",
+    "Supervised research and theses for a number of higher-degree candidates.",
+    "More than 190 invited lectures at international meetings."
+  ],
+  "appointments": [
+    { "label": "EAES Education and Training", "value": "Vice-Chairman 2007–11" },
+    { "label": "ALSGBI Council", "value": "2004–08, 2014–18" },
+    { "label": "University of Glasgow", "value": "Hon. Senior Research Fellow" }
+  ],
+  "mycourse_url": "https://mycourse-laparoscopic-training.pages.dev/"
+}

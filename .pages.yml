@@ -1,0 +1,339 @@
+# Pages CMS configuration — lets the site be edited with forms at https://app.pagescms.org
+# Sign in with GitHub, pick this repository, and edit the sections below.
+media:
+  input: media
+  output: media
+
+content:
+  - name: programmes
+    label: Programmes (courses with photos)
+    type: file
+    path: content/programmes.json
+    format: json
+    fields:
+      - name: intro
+        label: Introduction at the top of the page
+        type: text
+      - name: items
+        label: Courses
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Course title
+            type: string
+            required: true
+          - name: status
+            label: Show as
+            type: select
+            description: "Automatic uses the dates: courses that have ended move to Past courses by themselves."
+            options:
+              values: ["Automatic (from dates)", "Upcoming", "Past"]
+          - name: start_date
+            label: Start date
+            type: date
+          - name: end_date
+            label: End date
+            type: date
+          - name: date_note
+            label: Date text (optional)
+            type: string
+            description: "Shown instead of the dates, e.g. 'Dates to be announced'. Leave empty to show the dates."
+          - name: venue
+            label: Venue
+            type: string
+          - name: location
+            label: City / country
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: register_link
+            label: Registration link (optional)
+            type: string
+          - name: programme_file
+            label: Programme document (PDF, optional)
+            type: file
+          - name: cover
+            label: Main photo
+            type: image
+          - name: photos
+            label: Photo gallery
+            type: image
+            list: true
+
+  - name: videos
+    label: Video library
+    type: file
+    path: content/videos.json
+    format: json
+    fields:
+      - name: intro
+        label: Introduction at the top of the library
+        type: text
+      - name: items
+        label: Videos
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: id
+            label: Web address name
+            type: string
+            required: true
+            description: "Short, lower case, words joined by hyphens, different for every video, e.g. mirizzi-type-1"
+          - name: video_url
+            label: Video link (Vimeo or YouTube)
+            type: string
+            description: "Paste the link from Vimeo or YouTube. Leave empty to show 'Coming soon'."
+          - name: group
+            label: Group
+            type: select
+            options:
+              values: ["Cholecystectomy", "Cholangiography", "Bile duct exploration", "Complications"]
+          - name: grade
+            label: Nassar grade
+            type: select
+            options:
+              values: ["I", "II", "III", "IV", "V"]
+          - name: procedure
+            label: Procedure
+            type: string
+          - name: duration
+            label: Duration (e.g. 18:22)
+            type: string
+          - name: thumbnail
+            label: Thumbnail picture (optional)
+            type: image
+          - name: show_on_home
+            label: Feature on the home page
+            type: boolean
+          - name: description
+            label: Description
+            type: text
+          - name: chapters
+            label: Chapters
+            type: object
+            list: true
+            fields:
+              - name: time
+                label: Time (e.g. 06:45)
+                type: string
+              - name: title
+                label: Chapter title
+                type: string
+          - name: teaching_points
+            label: Teaching points
+            type: string
+            list: true
+          - name: course
+            label: Course name
+            type: string
+
+  - name: courses
+    label: Courses (curriculum)
+    type: file
+    path: content/courses.json
+    format: json
+    fields:
+      - name: items
+        label: Courses
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: length
+            label: Length (e.g. 6 modules)
+            type: string
+          - name: summary
+            label: Summary
+            type: text
+          - name: image
+            label: Picture (optional)
+            type: image
+
+  - name: site
+    label: Home page and site settings
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: title
+        label: Site name
+        type: string
+      - name: tagline
+        label: Tagline under the name
+        type: string
+      - name: description
+        label: Site description
+        type: text
+      - name: contact_email
+        label: Contact email (optional, shown in the footer)
+        type: string
+      - name: hero
+        label: Home page banner
+        type: object
+        fields:
+          - name: eyebrow
+            label: Small heading
+            type: string
+          - name: heading
+            label: Main heading
+            type: string
+          - name: text
+            label: Text
+            type: text
+          - name: image
+            label: Background photo (optional)
+            type: image
+      - name: credentials
+        label: Figures under the banner
+        type: object
+        list: true
+        fields:
+          - name: value
+            label: Figure
+            type: string
+          - name: label
+            label: Label
+            type: string
+      - name: governance
+        label: Governance points
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: text
+            label: Text
+            type: text
+
+  - name: about
+    label: About
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: name
+        label: Name
+        type: string
+      - name: role
+        label: Role and titles
+        type: text
+      - name: photo
+        label: Photo (optional)
+        type: image
+      - name: interests
+        label: Clinical and research interests
+        type: text
+        list: true
+      - name: training
+        label: Training and course direction
+        type: text
+        list: true
+      - name: appointments
+        label: Appointments
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Role
+            type: string
+          - name: value
+            label: Detail
+            type: string
+      - name: mycourse_url
+        label: MyCourse link
+        type: string
+
+  - name: cases
+    label: Interactive cases
+    type: file
+    path: content/cases.json
+    format: json
+    fields:
+      - name: items
+        label: Cases (the first one is shown)
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: Short name
+            type: string
+          - name: title
+            label: Title
+            type: string
+          - name: details
+            label: Clinical information
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Item
+                type: string
+              - name: value
+                label: Value
+                type: string
+          - name: question
+            label: Question
+            type: string
+          - name: options
+            label: Answer options
+            type: object
+            list: true
+            fields:
+              - name: text
+                label: Option
+                type: string
+              - name: correct
+                label: Correct answer
+                type: boolean
+              - name: verdict
+                label: Verdict (bold line)
+                type: string
+              - name: explanation
+                label: Explanation
+                type: text
+          - name: video_id
+            label: Linked video (its web address name)
+            type: string
+
+  - name: membership
+    label: Membership
+    type: file
+    path: content/membership.json
+    format: json
+    fields:
+      - name: intro
+        label: Introduction
+        type: text
+      - name: tiers
+        label: Membership options
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: price
+            label: Price (leave empty for 'to be announced')
+            type: string
+          - name: period
+            label: Period (e.g. per month)
+            type: string
+          - name: featured
+            label: Highlight this option
+            type: boolean
+          - name: features
+            label: What's included
+            type: string
+            list: true
+      - name: note
+        label: Note under the options
+        type: text

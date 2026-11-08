@@ -1,0 +1,24 @@
+{
+  "title": "Biliary Surgery Mastery",
+  "tagline": "Laparoscopic gallbladder & bile duct surgery",
+  "description": "Operative videos, courses and training in complex laparoscopic gallbladder and bile duct surgery.",
+  "contact_email": "",
+  "hero": {
+    "eyebrow": "Operative video · courses · training",
+    "heading": "Learn the difficult gallbladder from the surgeon who graded it.",
+    "text": "Operative video, indexed by difficulty grade and teaching point, from a thirty-year series of laparoscopic cholecystectomy and bile duct exploration. Every case is a real operation, chaptered so you can go straight to the step you need.",
+    "image": ""
+  },
+  "credentials": [
+    { "value": "I–V", "label": "Nassar difficulty grading scale" },
+    { "value": "52,000+", "label": "Patients graded in the GECKO study" },
+    { "value": "190+", "label": "Invited international lectures" },
+    { "value": "2003", "label": "EAES course directorship since" }
+  ],
+  "governance": [
+    { "title": "Anonymised at source", "text": "No patient identifiers appear in any frame, title, cholangiogram or chapter note." },
+    { "title": "Consent documented", "text": "Educational-use consent is recorded for every operation before it enters the library." },
+    { "title": "Secure video hosting", "text": "Video is hosted on a secure service and embedded on this site. Downloads are disabled." },
+    { "title": "Professional audience", "text": "Operative content is intended for surgeons and surgical trainees." }
+  ]
+}

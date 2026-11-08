@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "title": "Fundamentals of laparoscopic biliary surgery", "length": "6 modules", "summary": "Access and port placement, exposure, the anatomy of the hepatocystic triangle, and what must be seen before anything is divided.", "image": "" },
+    { "title": "The difficult laparoscopic cholecystectomy", "length": "9 modules", "summary": "Grades III to V. Dense adhesions, the contracted gallbladder, Mirizzi, cholecystoenteric fistula, subtotal cholecystectomy and the decision to stop.", "image": "" },
+    { "title": "Laparoscopic bile duct exploration", "length": "11 modules", "summary": "Patient selection, equipment, the transcystic route, choledochoscopy, difficult and multiple stones, and the retained stone.", "image": "" },
+    { "title": "Transcystic exploration", "length": "7 modules", "summary": "Guidewire, basket and balloon-in-cystic technique, with the duct anatomy that decides between them.", "image": "" },
+    { "title": "Choledochotomy", "length": "6 modules", "summary": "Opening the duct, clearing it, and closing it primarily or over a drain.", "image": "" },
+    { "title": "Complications and their management", "length": "8 modules", "summary": "Bile duct injury, cystic artery bleeding, duct perforation, retained stones, bile leak and the postoperative course.", "image": "" }
+  ]
+}

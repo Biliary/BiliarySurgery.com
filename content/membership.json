@@ -1,0 +1,10 @@
+{
+  "intro": "Subscription membership is being prepared. It will give access to the full video library, recorded lectures and course enrolment. Prices will be announced when it opens.",
+  "tiers": [
+    { "name": "Free", "price": "£0", "period": "", "featured": false, "features": ["Introductory lectures", "Demonstration videos", "Publication list", "Short operative tips"] },
+    { "name": "Membership", "price": "", "period": "per month", "featured": true, "features": ["Complete video library", "All recorded lectures", "Case discussions", "New operations as they are added"] },
+    { "name": "Single course", "price": "", "period": "", "featured": false, "features": ["One structured course", "Six months of access", "Interactive cases for that course", "Certificate on completion"] },
+    { "name": "Premium", "price": "", "period": "per year", "featured": false, "features": ["Everything in membership", "All six courses", "Live webinars", "Certificates and CPD record"] }
+  ],
+  "note": "Departments wanting on-site teaching in their own theatres can arrange it through the MyCourse programme."
+}
