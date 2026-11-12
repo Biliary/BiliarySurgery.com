@@ -42,6 +42,21 @@
         "media/EAES Athens Faculty.jpg",
         "media/EAES Athens course 1.jpg"
       ]
+    },
+    {
+      "title": "IRCAD France April 2026",
+      "status": "Past",
+      "start_date": "2026-04-27",
+      "end_date": "2026-04-29",
+      "venue": "IRCAD France",
+      "location": "Strasbourg",
+      "cover": "media/IRCASD France Lecture.jpg",
+      "photos": [
+        "media/IRCAD FRANCE Podium.jpg",
+        "media/IRCAD lab.jpg",
+        "media/IRCAD FRANCE LAB 1.jpg",
+        "media/IRCAD france faculty.jpg"
+      ]
     }
   ]
 }
