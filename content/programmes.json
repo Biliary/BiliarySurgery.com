@@ -6,42 +6,36 @@
       "status": "Automatic (from dates)",
       "start_date": "2026-12-02",
       "end_date": "2026-12-03",
-      "date_note": "",
       "venue": "Clinical Simulation Unit, King Abdullah Medical City",
       "location": "Saudi Arabia",
-      "description": "Two-day advanced course in complex biliary surgery, including laparoscopic bile duct exploration and choledochoscopy.",
-      "register_link": "",
-      "programme_file": "",
-      "cover": "",
-      "photos": []
+      "description": "Two-day advanced course in complex biliary surgery, including laparoscopic bile duct exploration and choledochoscopy."
     },
     {
-      "title": "Advanced Biliary and Choledochoscopy Course",
+      "title": "Advanced Course in  Biliary Surgery : ",
       "status": "Upcoming",
-      "start_date": "",
-      "end_date": "",
-      "date_note": "Dates to be announced",
-      "venue": "IRCAD Taiwan",
-      "location": "Taiwan",
-      "description": "Advanced course in biliary surgery and choledochoscopy with international faculty.",
-      "register_link": "",
-      "programme_file": "",
-      "cover": "",
-      "photos": []
+      "start_date": "2027-07-08",
+      "end_date": "2028-07-09",
+      "date_note": "July 2027: ",
+      "venue": "IRCAD France",
+      "location": "Strasbourg",
+      "description": "Laparoscopic CBDE, Choledochoscopy and advanced techniques. Advanced course in biliary surgery with international faculty.",
+      "register_link": "https://www.ircad.fr/course/2027-advanced-course-in-complex-biliary-surgery/"
     },
     {
       "title": "EAES Laparoscopic Bile Duct Exploration and Choledochoscopy Course",
       "status": "Past",
-      "start_date": "",
-      "end_date": "",
-      "date_note": "Held annually at the EAES Congress since 2003",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "date_note": "Held at the EAES Congress since 2003",
       "venue": "European Association for Endoscopic Surgery (EAES) Congress",
-      "location": "Europe",
+      "location": "Athens, June 2026",
       "description": "Hands-on course in laparoscopic bile duct exploration and choledochoscopy, run at the annual EAES congress for more than two decades.",
-      "register_link": "",
-      "programme_file": "",
-      "cover": "",
-      "photos": []
+      "cover": "media/77f37e15-7d5f-4b7c-b33a-3fedd5c3d469.jpeg",
+      "photos": [
+        "media/80d230bf-98e2-4122-a51e-2260a70d84d6.jpeg",
+        "media/e9059cf4-a23d-494e-8252-f4785c244ab4.jpeg",
+        "media/2d870105-37f9-4dd4-abb4-0e25b0d9ea21.jpeg"
+      ]
     }
   ]
 }
