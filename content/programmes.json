@@ -24,12 +24,14 @@
     {
       "title": "EAES Laparoscopic Bile Duct Exploration and Choledochoscopy Course",
       "status": "Past",
-      "start_date": "2026-11-12",
-      "end_date": "2026-11-12",
+      "start_date": "2026-06-23",
+      "end_date": "2026-06-23",
       "date_note": "Held at the EAES Congress since 2003",
       "venue": "European Association for Endoscopic Surgery (EAES) Congress",
       "location": "Athens, June 2026",
       "description": "Hands-on course in laparoscopic bile duct exploration and choledochoscopy, run at the annual EAES congress for more than two decades.",
+      "register_link": "https://eaes.eu/eaes-annual-congress/programme/hands-on-courses/",
+      "programme_file": "media/EAES Athens programme.docx",
       "cover": "media/77f37e15-7d5f-4b7c-b33a-3fedd5c3d469.jpeg",
       "photos": [
         "media/80d230bf-98e2-4122-a51e-2260a70d84d6.jpeg",
